@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:netherite_block"
+    },
+    "b": {
+      "item": "basically_gyrokinetic_wand:location_core"
+    },
+    "c": {
+      "item": "minecraft:netherite_shovel"
+    }
+  },
+  "result": {
+    "item": "basically_gyrokinetic_wand:gyrokinetic_wand",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "basically_gyrokinetic_wand:item/gyro_wand"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "mod_elements": [
+    {
+      "name": "GyrokineticWand",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyrokinetic_wand",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/basically_gyrokinetic_wand/models/item/gyrokinetic_wand.json",
+          "src/main/java/net/mcreator/basicallygyrokineticwand/item/GyrokineticWandItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GyrokineticWandRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gyrokinetic_wand_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/basicallygyrokineticwand/procedures/GyrokineticWandRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:GyrokineticWand"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.basically_gyrokinetic_wand.gyrokinetic_wand": "Gyrokinetic Wand"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "basically_gyrokinetic_wand",
+    "modName": "Basically Gyrokinetic Wand",
+    "version": "1.0.0",
+    "author": "uvojt, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.basicallygyrokineticwand"
+  },
+  "mcreatorVersion": 202500110519
+}
